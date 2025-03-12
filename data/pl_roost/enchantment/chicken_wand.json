@@ -1,0 +1,49 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "pl_roost.enchantment.chicken_wand",
+    "fallback": "鸡杖"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pl_roost:hit_entity"
+        },
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:chicken"
+          }
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "pl_roost:hit_block"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 2,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:stick",
+  "primary_items": [],
+  "weight": 1
+}
