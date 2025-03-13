@@ -2,12 +2,12 @@
     "pl_roost.load_resourcepack": "",
     "pl_roost.enchantment.chicken_wand": "Chicken Wand",
     "pl_roost.item.chicken_soul": "Chicken Soul",
-    "pl_roost.advancement.root.title": "Roost!",
+    "pl_roost.advancement.root.title": "Roost!      ",
     "pl_roost.advancement.root.description": "Use Feather, Stick, Egg to craft Chicken Wand at the Smithing Table",
     "pl_roost.advancement.chicken_wand.title": "Chicken Wand",
     "pl_roost.advancement.chicken_wand.description": "Use the Chicken Wand to attack chickens, Then you can pick chicken up into inventory",
-    "pl_roost.advancement.chicken_soul.title": "hicken Soul",
+    "pl_roost.advancement.chicken_soul.title": "Chicken Soul",
     "pl_roost.advancement.chicken_soul.description": "Be careful not to throw it out",
-    "pl_roost.advancement.roost.title": "Roost?",
+    "pl_roost.advancement.roost.title": "Roost?                 ",
     "pl_roost.advancement.roost.description": "Place the Barrel on top of the Hay Block and Left-click the Hay Block with the Chicken Wand. Put the Chicken Soul in the Barrel to lay Eggs, and the more Chicken Souls, the faster the Eggs will be laid"
 }
