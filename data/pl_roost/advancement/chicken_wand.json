@@ -1,0 +1,41 @@
+{
+  "parent": "pl_roost:root",
+  "display": {
+    "title": {
+      "translate": "pl_roost.advancement.chicken_wand.title"
+    },
+    "description": {
+      "translate": "pl_roost.advancement.chicken_wand.description"
+    },
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:enchantments": {
+          "pl_roost:chicken_wand": 1
+        }
+      }
+    }
+  },
+  "criteria": {
+    "has_wand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick",
+            "components": {
+              "minecraft:enchantments": {
+                "pl_roost:chicken_wand": 1
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wand"
+    ]
+  ]
+}

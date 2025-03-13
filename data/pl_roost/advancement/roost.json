@@ -1,0 +1,19 @@
+{
+  "parent": "pl_roost:root",
+  "display": {
+    "title": {
+      "translate": "pl_roost.advancement.roost.title"
+    },
+    "description": {
+      "translate": "pl_roost.advancement.roost.description"
+    },
+    "icon": {
+      "id": "minecraft:repeating_command_block"
+    }
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
