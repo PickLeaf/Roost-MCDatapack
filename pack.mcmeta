@@ -1,14 +1,30 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": [34,48],
+		"supported_formats": [34,71],
 		"description": [
 			{
-				"text": "Roost V1.1 [MC1.21.1+]\n"
+				"text": "Roost V1.2 [MC1.21.x]\n"
 			},
 			{
 				"text": "By 刘拾叶 | PickLeaf",
 				"color": "gold"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [57, 99],
+				"directory": "1_21_2_plus"
+			},
+			{
+				"formats": [71, 99],
+				"directory": "1_21_5_plus"
+			},
+			{
+				"formats": [48, 72],
+				"directory": "print_version"
 			}
 		]
 	}

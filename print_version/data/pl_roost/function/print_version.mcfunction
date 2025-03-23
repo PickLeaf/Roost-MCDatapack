@@ -1,6 +1,6 @@
 execute unless entity @p run return run \
     schedule function pl_roost:print_version 2t
-tellraw @a [{"text": "Roost V1.2 [MC1.21.x] (Be loaded to WRONG version!)",\
+tellraw @a [{"text": "Roost V1.2 [MC1.21.x]",\
     "hoverEvent": {"action": "show_text",\
     "contents": {"text": "https://github.com/PickLeaf/Roost-MCDatapack"}},\
     "clickEvent": {"action": "open_url",\
