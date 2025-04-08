@@ -23,8 +23,12 @@
 				"directory": "1_21_5_plus"
 			},
 			{
-				"formats": [48, 71],
+				"formats": [48, 61],
 				"directory": "print_version"
+			},
+			{
+				"formats": [62, 71],
+				"directory": "print_version_1_21_5_plus"
 			}
 		]
 	}
