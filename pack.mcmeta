@@ -4,7 +4,7 @@
 		"supported_formats": [34,71],
 		"description": [
 			{
-				"text": "Roost V1.2 [MC1.21.x]\n"
+				"text": "Roost V1.3 [MC1.21.x]\n"
 			},
 			{
 				"text": "By 刘拾叶 | PickLeaf",
@@ -15,15 +15,15 @@
 	"overlays": {
 		"entries": [
 			{
-				"formats": [57, 99],
+				"formats": [57, 999],
 				"directory": "1_21_2_plus"
 			},
 			{
-				"formats": [71, 99],
+				"formats": [71, 999],
 				"directory": "1_21_5_plus"
 			},
 			{
-				"formats": [48, 72],
+				"formats": [48, 71],
 				"directory": "print_version"
 			}
 		]

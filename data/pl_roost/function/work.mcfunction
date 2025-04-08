@@ -1,4 +1,4 @@
-execute unless block ~ ~1 ~ minecraft:barrel run \
+execute unless block ~ ~1 ~ #pl_roost:27_slots_container run \
     return run function pl_roost:uninstall
 #1/27 ≈ 0.037037037037037
 execute store result storage pl_roost temp float 0.037037037037037 run \

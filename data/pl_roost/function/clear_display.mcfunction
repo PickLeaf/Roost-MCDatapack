@@ -1,1 +1,1 @@
-$kill @e[type=minecraft:item_display,tag=pl_roost.roost_display,distance=..$(R)]
+$kill @e[tag=pl_roost.roost_display,distance=..$(R)]
