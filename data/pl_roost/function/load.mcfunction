@@ -1,1 +1,1 @@
-function pl_roost:print_version
+function pl_roost:print/info

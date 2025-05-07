@@ -1,4 +1,7 @@
 {
+    "pl_roost.mod_name": "鸡窝",
+    "pl_roost.link": "[链接]",
+    "pl_roost.load_wrong_version": "(被加载到了错误的版本！)",
     "pl_roost.load_resourcepack": "",
     "pl_roost.enchantment.chicken_wand": "鸡杖",
     "pl_roost.item.chicken_soul": "鸡魂",

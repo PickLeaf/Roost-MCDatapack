@@ -1,4 +1,7 @@
 {
+    "pl_roost.mod_name": "Roost",
+    "pl_roost.link": "[Link]",
+    "pl_roost.load_wrong_version": "(Be loaded to WRONG version!)",
     "pl_roost.load_resourcepack": "",
     "pl_roost.enchantment.chicken_wand": "Chicken Wand",
     "pl_roost.item.chicken_soul": "Chicken Soul",

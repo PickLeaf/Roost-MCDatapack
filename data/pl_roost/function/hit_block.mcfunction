@@ -5,7 +5,7 @@ setblock ~ ~ ~ minecraft:repeating_command_block[facing=down]{Command:"\
     execute if predicate pl_roost:periodic_tick run \
     function pl_roost:work",auto:1b}
 summon minecraft:block_display ~ ~ ~ \
-    {block_state:{Name:"minecraft:dropper",\
+    {block_state:{Name:"minecraft:dispenser",\
     Properties:{"facing":"down"}},\
     transformation:{left_rotation:[0f,0f,0f,1f],\
     right_rotation:[0f,0f,0f,1f],\
