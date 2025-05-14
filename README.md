@@ -1,3 +1,5 @@
+<a href="https://www.curseforge.com/minecraft/data-packs/pl-roost">[Curseforge]</a>
+<a href="https://modrinth.com/datapack/pl_roost">[Modrinth]</a>
 # Minecraft Datapack
 The Roost be added to produce eggs without terrible lag. 
 Added in-game advancement to guide usage.
