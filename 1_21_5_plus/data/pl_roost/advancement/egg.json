@@ -6,7 +6,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#eggs"
+                        "items": "#minecraft:eggs"
                     }
                 ]
             }
