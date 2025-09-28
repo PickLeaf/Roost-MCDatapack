@@ -1,7 +1,8 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "pl_roost.enchantment.chicken_wand"
+    "translate": "pl_roost.enchantment.chicken_wand",
+    "fallback": "Chicken Wand"
   },
   "effects": {
     "minecraft:post_attack": [

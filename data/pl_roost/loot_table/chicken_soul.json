@@ -20,7 +20,8 @@
               "function": "minecraft:set_name",
               "name": {
                 "italic": false,
-                "translate": "pl_roost.item.chicken_soul"
+                "translate": "pl_roost.item.chicken_soul",
+                "fallback": "Chicken Soul"
               }
             }
           ]

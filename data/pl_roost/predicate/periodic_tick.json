@@ -1,4 +1,5 @@
 {
-    "condition": "minecraft:random_chance",
-    "chance": 0.02
+    "condition": "minecraft:time_check",
+    "value": 0,
+    "period": 50
 }

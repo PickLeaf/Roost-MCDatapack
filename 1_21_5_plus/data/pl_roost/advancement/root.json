@@ -2,10 +2,12 @@
   "display": {
     "background": "minecraft:block/hay_block_side",
     "title": {
-      "translate": "pl_roost.advancement.root.title"
+      "translate": "pl_roost.advancement.root.title",
+      "fallback": "Roost!      "
     },
     "description": {
-      "translate": "pl_roost.advancement.root.description"
+      "translate": "pl_roost.advancement.root.description",
+      "fallback": "Use Feather, Stick, Egg to craft Chicken Wand at the Smithing Table"
     },
     "icon": {
       "id": "minecraft:hay_block"

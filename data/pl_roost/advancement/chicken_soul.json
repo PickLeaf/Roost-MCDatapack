@@ -2,10 +2,12 @@
   "parent": "pl_roost:chicken_wand",
   "display": {
     "title": {
-      "translate": "pl_roost.advancement.chicken_soul.title"
+      "translate": "pl_roost.advancement.chicken_soul.title",
+      "fallback": "Chicken Soul"
     },
     "description": {
-      "translate": "pl_roost.advancement.chicken_soul.description"
+      "translate": "pl_roost.advancement.chicken_soul.description",
+      "fallback": "Be careful not to throw it out"
     },
     "icon": {
       "id": "minecraft:egg",

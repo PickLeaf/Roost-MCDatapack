@@ -2,13 +2,15 @@
   "parent": "pl_roost:root",
   "display": {
     "title": {
-      "translate": "pl_roost.advancement.roost.title"
+      "translate": "pl_roost.advancement.roost.title",
+      "fallback": "Roost?                 "
     },
     "description": {
-      "translate": "pl_roost.advancement.roost.description"
+      "translate": "pl_roost.advancement.roost.description",
+      "fallback": "Place the Barrel on top of the Hay Block and Left-click the Hay Block with the Chicken Wand. Put the Chicken Soul in the Barrel to lay Eggs, and the more Chicken Souls, the faster the Eggs will be laid"
     },
     "icon": {
-      "id": "minecraft:repeating_command_block"
+      "id": "minecraft:dispenser"
     }
   },
   "criteria": {

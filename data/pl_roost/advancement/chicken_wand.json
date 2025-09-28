@@ -2,10 +2,12 @@
   "parent": "pl_roost:root",
   "display": {
     "title": {
-      "translate": "pl_roost.advancement.chicken_wand.title"
+      "translate": "pl_roost.advancement.chicken_wand.title",
+      "fallback": "Chicken Wand"
     },
     "description": {
-      "translate": "pl_roost.advancement.chicken_wand.description"
+      "translate": "pl_roost.advancement.chicken_wand.description",
+      "fallback": "Use the Chicken Wand to attack Chicken, Then you can pick Chickens up into inventory"
     },
     "icon": {
       "id": "minecraft:stick",
