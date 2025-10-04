@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:block/hay_block_side.png",
+    "background": "minecraft:textures/block/hay_block_side.png",
     "title": {
       "translate": "pl_roost.advancement.root.title",
       "fallback": "Roost!      "

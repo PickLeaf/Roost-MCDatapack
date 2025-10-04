@@ -1,7 +1,9 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": [34,71],
+		"supported_formats": [34,88],
+		"min_format": 34,
+		"max_format": 88,
 		"description": [
 			{
 				"text": "Roost V1.5[MC1.21.x]\n"
@@ -15,20 +17,34 @@
 	"overlays": {
 		"entries": [
 			{
-				"formats": [57, 999],
-				"directory": "1_21_2_plus"
+				"formats": [49, 9999],
+				"min_format": 49,
+				"max_format": 9999,
+				"directory": "24w33a_p"
 			},
 			{
-				"formats": [71, 999],
-				"directory": "1_21_5_plus"
+				"formats": [62, 9999],
+				"min_format": 62,
+				"max_format": 9999,
+				"directory": "25w02a_p"
 			},
 			{
-				"formats": [48, 81],
+				"formats": [64, 9999],
+				"min_format": 64,
+				"max_format": 9999,
+				"directory": "25w04a_p"
+			},
+			{
+				"formats": [66, 9999],
+				"min_format": 66,
+				"max_format": 9999,
+				"directory": "25w06a_p"
+			},
+			{
+				"formats": [48, 88],
+				"min_format": 48,
+				"max_format": 88,
 				"directory": "print_info"
-			},
-			{
-				"formats": [62, 999],
-				"directory": "print_info_1_21_5_plus"
 			}
 		]
 	}
