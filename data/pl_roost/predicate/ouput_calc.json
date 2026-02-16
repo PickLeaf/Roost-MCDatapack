@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:random_chance",
-    "chance": {
-        "type": "storage",
-        "storage": "pl_roost",
-        "path": "temp"
-    }
-}

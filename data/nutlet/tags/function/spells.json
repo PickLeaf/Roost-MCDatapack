@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "pl_roost:load"
+        "pl_roost:register/spells"
     ]
 }

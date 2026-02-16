@@ -1,1 +1,0 @@
-$kill @e[tag=pl_roost.roost_display,distance=..$(R)]

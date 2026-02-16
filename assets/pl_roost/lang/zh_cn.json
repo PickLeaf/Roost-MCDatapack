@@ -1,16 +1,12 @@
 {
     "pl_roost.mod_name": "鸡窝",
     "pl_roost.link": "[链接]",
-    "pl_roost.load_wrong_version": "(被加载到了错误的版本！)",
+    "pl_roost.load_unexpected_version": "(被加载到了非预期的版本！)",
+    "pl_roost.missing_nutlet": "(缺失Nutlet数据包)",
+    "pl_roost.nutlet_low": "(Nutlet数据包版本过低)",
     "pl_roost.load_resourcepack": "",
-    "pl_roost.enchantment.chicken_wand": "鸡杖",
-    "pl_roost.item.chicken_soul": "鸡魂",
-    "pl_roost.advancement.root.title": "鸡窝！      ",
-    "pl_roost.advancement.root.description": "使用羽毛、木棍、鸡蛋在锻造台合成鸡杖吧",
-    "pl_roost.advancement.chicken_wand.title": "鸡杖",
-    "pl_roost.advancement.chicken_wand.description": "拿鸡杖攻击鸡将鸡们收进物品栏吧",
-    "pl_roost.advancement.chicken_soul.title": "鸡魂",
-    "pl_roost.advancement.chicken_soul.description": "小心别丢出去了哦",
-    "pl_roost.advancement.roost.title": "鸡窝？                 ",
-    "pl_roost.advancement.roost.description": "将木桶放置在干草块上面，并拿鸡杖破坏干草块。在木桶里放入鸡魂就可以下蛋了，鸡魂越多下蛋越快"
+    "pl_roost.advancement.roost.description": "%s一个%s，然后按照提示操作",
+    "pl_roost.info.setup_fail_1": "请击打一个%s",
+    "pl_roost.info.setup_fail_2": "需要一些%s在正中心",
+    "pl_roost.info.setup_fail_3": "这已经有鸡窝了"
 }

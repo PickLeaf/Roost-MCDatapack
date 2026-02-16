@@ -1,0 +1,490 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:jack_o_lantern",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetZ": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetX": 1
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:jack_o_lantern",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetZ": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetX": 1
+                        }
+                    ]
+                },
+                
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetZ": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:jack_o_lantern",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetX": 1
+                        }
+                    ]
+                },
+                
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetZ": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:chiseled_bookshelf",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:jack_o_lantern",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetX": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:stonecutter"
+                }
+            },
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_planks"
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 0,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_planks"
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 0,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_planks"
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 0,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:oak_planks"
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 0,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:hay_block"
+                }
+            },
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": -1
+        }
+    ]
+}
