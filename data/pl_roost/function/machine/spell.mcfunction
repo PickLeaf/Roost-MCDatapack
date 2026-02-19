@@ -14,7 +14,7 @@ execute if data storage pl_roost:var stop \
         data remove storage pl_roost:var stop
 
 execute align xyz if entity \
-    @n[tag=nutlet.display,dx=1,dz=1,dy=1] \
+    @n[tag=nutlet.display,dx=0,dz=0,dy=0] \
         run return fail
 
 function nutlet:-m/facing/block_axis_align {handler:"pl_roost:machine/show_schematic"}
