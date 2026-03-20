@@ -9,7 +9,7 @@ execute positioned ^ ^ ^-1 \
             data remove storage pl_roost:var stop
 execute positioned ^ ^ ^-1 \
     align xyz unless entity \
-    @e[type=minecraft:chicken,dx=1,dy=1,dz=1] \
+    @e[type=minecraft:chicken,dx=0,dy=0,dz=0] \
         run return run \
             data remove storage pl_roost:var stop
 execute positioned ^ ^-0.25 ^-1 \
@@ -18,10 +18,10 @@ execute positioned ^ ^-0.25 ^-1 \
 execute store result storage pl_roost:var count \
     int 1 positioned ^ ^ ^-1 \
     align xyz if entity \
-        @e[type=minecraft:chicken,dx=1,dy=1,dz=1]
+        @e[type=minecraft:chicken,dx=0,dy=0,dz=0]
 execute positioned ^ ^ ^-1 \
     align xyz as \
-    @e[type=minecraft:chicken,dx=1,dy=1,dz=1] \
+    @e[type=minecraft:chicken,dx=0,dy=0,dz=0] \
         run function pl_roost:uni/kill
 # summon marker
 execute summon minecraft:marker \

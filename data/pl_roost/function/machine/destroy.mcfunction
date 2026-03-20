@@ -1,4 +1,4 @@
 setblock ~ ~ ~ minecraft:air
 function pl_roost:machine/destroy_loop
-playsound entity.chicken.death hostile @a ~ ~ ~
+playsound entity.chicken.egg hostile @a ~ ~ ~
 kill @s
