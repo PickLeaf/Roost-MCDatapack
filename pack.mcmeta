@@ -35,7 +35,7 @@
 				"directory": "25w06a_p"
 			},
 			{
-				"formats": [48, 94.1],
+				"formats": [48, 94],
 				"min_format": 48,
 				"max_format": 94,
 				"directory": "print_info"
