@@ -6,7 +6,7 @@
 		"max_format": 94,
 		"description": [
 			{
-				"text": "Roost V1.6.1[MC1.21.x]\n"
+				"text": "Roost V1.7[MC1.21.x]\n"
 			},
 			{
 				"text": "By 刘拾叶 | PickLeaf",
@@ -16,6 +16,12 @@
 	},
 	"overlays": {
 		"entries": [
+			{
+				"formats": [61, 9999],
+				"min_format": 61,
+				"max_format": 9999,
+				"directory": "1.21.4-pre2_p"
+			},
 			{
 				"formats": [62, 9999],
 				"min_format": 62,
@@ -29,7 +35,7 @@
 				"directory": "25w06a_p"
 			},
 			{
-				"formats": [48, 94],
+				"formats": [48, 94.1],
 				"min_format": 48,
 				"max_format": 94,
 				"directory": "print_info"

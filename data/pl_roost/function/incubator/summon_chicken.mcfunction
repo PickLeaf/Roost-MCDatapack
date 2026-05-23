@@ -1,0 +1,1 @@
+summon minecraft:chicken ^ ^1.75 ^1 {Motion: [0d, 0.6d, 0d]}

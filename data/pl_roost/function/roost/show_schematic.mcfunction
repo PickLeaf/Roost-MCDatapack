@@ -1,5 +1,5 @@
 execute positioned ^ ^-0.125 ^-1 \
-    run function pl_roost:uni/particle_tip_3x3 {particle:"minecraft:flame"}
+    run function pl_roost:uni/particle_tip_3x3x2_5 {particle:"minecraft:flame"}
 
 data modify storage nutlet:var schematic set value \
     {tick:100, keepData:1b, transformation:{\
@@ -35,25 +35,24 @@ execute positioned ^-1 ^ ^-1 \
     run function nutlet:-m/schematic/block {hasProp:"true"}
 # first layer, hay block
 data modify storage nutlet:var schematic.id set value "minecraft:hay_block"
-data modify storage nutlet:var schematic.prop set value {axis:"y"}
 execute positioned ^ ^-1 ^ \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^1 ^-1 ^ \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^-1 ^-1 ^ \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^ ^-1 ^-1 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^1 ^-1 ^-1 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^-1 ^-1 ^-1 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^ ^-1 ^-2 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^1 ^-1 ^-2 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 execute positioned ^-1 ^-1 ^-2 \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
 # oak planks slab
 data modify storage nutlet:var schematic.id set value "minecraft:oak_slab"
 data modify storage nutlet:var schematic.prop set value {type:"bottom"}
@@ -93,28 +92,28 @@ execute positioned ^ ^ ^-1 \
 # clear data
 data remove storage nutlet:var facing
 # text display
-execute positioned ^0 ^ ^-1 \
+execute positioned ^ ^ ^-1 \
     unless predicate pl_roost:roost \
     run return run \
         data remove storage nutlet:var schematic
 
 data modify storage nutlet:var schematic.mergeData set value \
-    {width:3f, height:1f, line_width:250}
+    {width:3f, height:1f, line_width:120}
 execute positioned ^ ^ ^-1 \
     positioned ~0.5 ~0.5 ~-0.5 \
     unless entity @e[type=minecraft:chicken,dx=1,dy=1,dz=1] \
     run data modify storage nutlet:var schematic.text set value \
-        '{"translate":"pl_roost.info.setup_fail_2",\
+        '{"translate":"pl_roost.info.roost.setup_fail_1",\
         "fallback":"Need some %s in center",\
         "with": [\
             {"translate": "entity.minecraft.chicken"}]}'
 execute if block ^ ^ ^-1 minecraft:repeating_command_block \
     run data modify storage nutlet:var schematic.text set value \
-    '{"translate":"pl_roost.info.setup_fail_3",\
-    "fallback":"Here is a Roost already", "color": "red"}'
+    '{"translate":"pl_roost.info.setup_fail_2",\
+    "fallback":"Here is a machine already", "color": "red"}'
 
 execute if data storage nutlet:var schematic.text \
-    positioned ^0 ^ ^0.51 \
+    positioned ^ ^ ^0.51 \
     run function nutlet:-m/schematic/text
 
 data remove storage nutlet:var schematic

@@ -6,7 +6,8 @@
     "pl_roost.nutlet_low": "(LOW Version of Nutlet Datapack)",
     "pl_roost.load_resourcepack": "",
     "pl_roost.advancement.roost.description": "%s a %s, then follow the tips",
+    "pl_roost.advancement.incubator.description": "Place the egg in the slot at the %s center, then light up the %s. The hatched chicken will be released from the %s above",
     "pl_roost.info.setup_fail_1": "Hit %s please",
-    "pl_roost.info.setup_fail_2": "Need some %s in center",
-    "pl_roost.info.setup_fail_3": "Here is a Roost already"
+    "pl_roost.info.setup_fail_2": "Here is a machine already",
+    "pl_roost.info.roost.setup_fail_1": "Need some %s in center"
 }

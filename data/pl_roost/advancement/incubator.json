@@ -1,0 +1,29 @@
+{
+    "parent": "pl_roost:roost",
+    "display": {
+        "title": "Chicken Incubator",
+        "description": {
+            "translate": "pl_roost.advancement.incubator.description",
+            "with": [
+                {"translate": "block.minecraft.crafter"},
+                {"translate": "block.minecraft.furnace"},
+                {"translate": "block.minecraft.cauldron"}
+            ]
+        },
+        "icon": {
+            "id": "minecraft:chicken"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

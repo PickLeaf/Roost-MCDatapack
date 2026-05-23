@@ -6,7 +6,8 @@
     "pl_roost.nutlet_low": "(Nutlet数据包版本过低)",
     "pl_roost.load_resourcepack": "",
     "pl_roost.advancement.roost.description": "%s一个%s，然后按照提示操作",
+    "pl_roost.advancement.incubator.description": "在%s中心的槽位放入鸡蛋, 然后点亮%s, 孵化出的鸡会从上方的%s放出",
     "pl_roost.info.setup_fail_1": "请击打一个%s",
-    "pl_roost.info.setup_fail_2": "需要一些%s在正中心",
-    "pl_roost.info.setup_fail_3": "这已经有鸡窝了"
+    "pl_roost.info.setup_fail_2": "这已经有机器了",
+    "pl_roost.info.roost.setup_fail_1": "需要一些%s在正中心"
 }
